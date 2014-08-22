@@ -349,7 +349,7 @@ $visibility-breakpoint-queries:
     /* Specific visibility for tables */
     table {
       &.show-for-portrait,
-      &.hide-for-landscape { display: table; }
+      &.hide-for-landscape { display: table !important; }
     }
     thead {
       &.show-for-portrait,
